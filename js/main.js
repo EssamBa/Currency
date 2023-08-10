@@ -10,4 +10,4 @@ fetch("https://api.currencyfreaks.com/v2.0/rates/latest?apikey=716e08872fa349648
     // console.log(currency.rates);
 syrPrice.innerHTML =Math.round(amount.innerHTML * currency.rates["SYP"])
 rubPrice.innerHTML =Math.round(amount.innerHTML * currency.rates["RUB"])
-});
+})
